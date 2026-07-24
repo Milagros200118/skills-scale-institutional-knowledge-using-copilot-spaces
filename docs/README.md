@@ -2,17 +2,49 @@
 
 ## Overview
 
-OctoAcme follows a structured project management framework designed to ensure consistent, repeatable execution across all projects. Our approach emphasizes clear communication, proactive risk management, and continuous improvement. This documentation serves as a central entry point for understanding our project management processes, key roles, and workflows.
+OctoAcme follows a structured project management framework designed to ensure consistent, repeatable execution across all projects. Our approach emphasizes **clear communication**, **proactive risk management**, **data-informed decisions**, and **continuous improvement**. This documentation serves as the centralized source of truth for all team members—from new contributors to seasoned project leads—to understand and follow OctoAcme's project management practices.
 
-## Project Management Approach
+## Key Project Management Processes
 
-OctoAcme's project management philosophy is built on five core principles: **customer-first** thinking (prioritizing customer value and usability), **iterative delivery** (delivering small, testable increments), **clear ownership** (each project has named Project Manager and Product Lead), **data-informed decisions** (measuring impact and iterating based on evidence), and **psychological safety** (encouraging feedback and learning). These principles guide decision-making across all project phases and ensure teams maintain focus on delivering value while maintaining quality and team well-being.
+OctoAcme operates a structured yet iterative project management framework grounded in customer-first principles and clear accountability. The organization employs a **five-phase lifecycle**—Initiation, Planning, Execution, Release, and Retrospective—to deliver cross-functional product features and services. Each phase includes defined deliverables and decision gates, ensuring stakeholder alignment from conception through deployment. The framework emphasizes data-informed decision-making, psychological safety, and clear ownership, with formal artifacts such as Project Charters, Risk Registers, and Acceptance Criteria guiding teams through completion.
 
-Our project lifecycle consists of seven key phases: **Initiation** (defining project objectives, stakeholders, and initial scope), **Planning** (developing comprehensive project plans, schedules, and resource allocation), **Execution & Tracking** (executing project work and maintaining progress visibility), **Risks & Communication** (identifying, assessing, and managing risks while maintaining stakeholder communication), **Release & Deployment** (preparing, testing, and deploying deliverables), and **Retrospective & Continuous Improvement** (capturing lessons learned and implementing process improvements). Each phase is supported by specific workflows, artifacts, and checkpoints designed to keep projects aligned and teams informed.
+**Key roles and personas drive accountability and communication** across OctoAcme projects. Project Managers coordinate schedules, risks, and stakeholder communications; Product Managers define success metrics and prioritize the backlog; Developers implement features while collaborating on design and testing; and QA/Testing validates quality against acceptance criteria. This distributed responsibility model is supported by a **structured communication cadence**—weekly PM-to-Product Manager syncs, twice-weekly team standups, monthly stakeholder updates, and ad-hoc escalations when blockers arise. Clear escalation paths (Team → PM → Product Lead → Sponsor) ensure issues surface quickly without bottlenecking delivery.
 
-Cross-functional collaboration is central to our approach. Key roles include **Project Managers** who coordinate delivery and manage schedules and risks, **Product Managers** who define what should be built and measure outcomes, **Developers** who implement features and collaborate on design, **QA/Testing** professionals who validate quality, and **Stakeholders** who provide inputs and approvals. Communication follows a structured cadence: weekly syncs between PM and Product Manager, twice-weekly standups for delivery teams, and monthly stakeholder updates, with ad-hoc escalations as needed.
+OctoAcme's execution philosophy emphasizes **small, shippable increments validated through continuous quality assurance**. Teams work in sprints or iterations using GitHub Projects boards (Backlog → Ready → In Progress → In Review → QA → Done), maintain small pull requests (≤400 lines when possible), run automated testing and security scanning in CI/CD pipelines, and include end-to-end smoke tests before production deployment. Risks are actively managed through a Risk Register maintained throughout the project lifecycle, and metrics such as velocity, burndown, and success indicators identified in the Project One-pager are tracked to drive continuous improvement. Following each sprint or release, retrospectives capture learnings and convert them into prioritized action items, ensuring the team iteratively refines its processes and outcomes.
 
-Quality assurance is embedded throughout our execution workflow. Teams use GitHub Projects or similar tools for work tracking, follow pull request conventions (keeping PRs ≤400 lines when possible), run automated tests and security scanning in CI, and conduct manual QA for feature acceptance. Success metrics identified during planning are tracked via dashboards, and blockers are escalated through a three-level triage system (team-level, PM-escalation, and sponsor-level) to ensure rapid resolution.
+## Documentation Index
+
+Navigate to the specific process documentation you need:
+
+### Core Framework
+- **[Project Management Overview](./octoacme-project-management-overview.md)** - Core concepts, principles, key roles, and the high-level project lifecycle
+
+### Project Lifecycle Phases
+- **[Project Initiation](./octoacme-project-initiation.md)** - Getting projects started: problem validation, stakeholder alignment, and decision gates
+- **[Project Planning](./octoacme-project-planning.md)** - Developing comprehensive plans, backlog prioritization, and release scheduling
+- **[Execution & Tracking](./octoacme-execution-and-tracking.md)** - Day-to-day execution, team rhythms, workflows, quality assurance, and progress tracking
+- **[Risks & Communication](./octoacme-risks-and-communication.md)** - Risk identification and management, stakeholder communication, and escalation paths
+- **[Release & Deployment](./octoacme-release-and-deployment.md)** - Release preparation, deployment procedures, rollback protocols, and incident playbooks
+- **[Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)** - Capturing learnings, running retrospectives, and implementing process improvements
+
+### Team & Roles
+- **[Roles & Personas](./octoacme-roles-and-personas.md)** - Detailed definitions of Developers, Product Managers, and Project Managers including responsibilities and goals
+
+## Quick Start for New Team Members
+
+1. **Start here:** Read the [Project Management Overview](./octoacme-project-management-overview.md) to understand OctoAcme's philosophy and key roles
+2. **Learn your role:** Check [Roles & Personas](./octoacme-roles-and-personas.md) to understand your responsibilities and those of your teammates
+3. **Follow the phases:** As your project progresses through initiation, planning, execution, release, and retrospective, refer to the corresponding phase documents
+4. **Reference as needed:** Use specific documents as reference guides during execution (e.g., the Execution & Tracking checklist, Release & Deployment checklist)
+
+## Key Principles
+
+- **Customer-first:** Prioritize customer value and usability
+- **Iterative delivery:** Deliver small, testable increments
+- **Clear ownership:** Each project has named Product and Project leads
+- **Data-informed decisions:** Measure impact and iterate based on evidence
+- **Psychological safety:** Encourage feedback and learning
+- **Transparency:** Maintain clear, consistent communication across stakeholders
 
 ## Key Artifacts
 
@@ -23,36 +55,13 @@ Quality assurance is embedded throughout our execution workflow. Teams use GitHu
 - **Risk Register** — Tracks identified risks, probability, impact, and mitigations
 - **Retrospective notes and action items** — Captures learnings and process improvements
 
-## Documentation Index
+## Communication & Support
 
-- [Project Management Overview](./octoacme-project-management-overview.md) — Core concepts and framework
-- [Project Initiation](./octoacme-project-initiation.md) — Getting projects started
-- [Project Planning](./octoacme-project-planning.md) — Planning and scheduling
-- [Execution & Tracking](./octoacme-execution-and-tracking.md) — Executing and monitoring work
-- [Risks & Communication](./octoacme-risks-and-communication.md) — Risk and stakeholder management
-- [Release & Deployment](./octoacme-release-and-deployment.md) — Deployment procedures
-- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) — Learning and improvement
-- [Roles & Personas](./octoacme-roles-and-personas.md) — Team roles and responsibilities
+- Have questions about a specific process? Refer to the relevant documentation file
+- Need to update or improve these processes? Use the issue template: [Add Content to Project Management Process Docs](./../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)
+- Want to use these docs in a Copilot Space? Add them to your `.copilot/` directory as context
 
-## Getting Started
+---
 
-**For New Team Members:**
-1. Start with this README to understand OctoAcme's philosophy and overall approach
-2. Review [Roles & Personas](./octoacme-roles-and-personas.md) to understand team structure
-3. Read [Project Management Overview](./octoacme-project-management-overview.md) for core concepts
-4. Explore specific process docs based on your role and current project phase
-
-**For Project Leads:**
-1. Reference [Project Initiation](./octoacme-project-initiation.md) when kickstarting a new project
-2. Use [Project Planning](./octoacme-project-planning.md) to set up your project structure and backlog
-3. Leverage [Execution & Tracking](./octoacme-execution-and-tracking.md) for day-to-day management
-4. Consult [Risks & Communication](./octoacme-risks-and-communication.md) for managing issues and stakeholder alignment
-
-## Best Practices
-
-- Keep the Project Charter updated in your project repository
-- Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context
-- Reference acceptance criteria and Definition of Done when planning work
-- Update the Risk Register weekly and escalate emerging risks promptly
-- Capture retrospective notes and action items at the end of each phase or milestone
-- Use the three-level blocker escalation system to unblock teams efficiently
+*Last updated: 2026-07-24*
+*For updates or feedback, please create an issue using the Process Doc Update template.*
